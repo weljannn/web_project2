@@ -1,0 +1,22 @@
+#myElementId {
+    border: 2px solid black;
+}
+
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 200px;
+    margin: 10px;
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 20px 0;
+}

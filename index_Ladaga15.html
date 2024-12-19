@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifying Element Properties</title>
+    <style>
+        /* Styling to make tasks more visually distinct */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        div, ul, ol {
+            margin-bottom: 20px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Element Modification Tasks</h1>
+
+    <!-- Task #1: Changing Text Color -->
+    <div id="task1">
+        <h2>Task 1: Changing Text Color</h2>
+        <p id="myElementId">This is a paragraph to change color.</p>
+    </div>
+
+    <!-- Task #2: Updating Image Source and Alt -->
+    <div id="task2">
+        <h2>Task 2: Updating Image Source and Alt</h2>
+            <img style="height: 200px; width: 200px;" id="myImage1" src="original-image1.jpg" alt="Original Image 1">
+        <div> 
+            <img style="height: 200px; width: 200px;" id="myImage2" src="original-image2.jpg" alt="Original Image 2">
+          </div>
+        
+    </div>
+
+    <!-- Task #3: Modifying Link URL -->
+    <div id="task3">
+        <h2>Task 3: Modifying Link URL</h2>
+        <a href="" id="myLink1">First Link</a>
+        <br>
+        <a href="" id="myLink2">Second Link</a>
+    </div>
+
+    <!-- Task #4: Changing Border Color -->
+    <div id="task4">
+        <h2>Task 4: Changing Border Color</h2>
+        <div id="myElementId" style="border: 2px solid black;">
+            This is a sample div element with an initial black border.
+        </div>
+    
+
+    <!-- Task #5: Adding a New Element -->
+    <div id="task5">
+        <h2>Task 5: Adding a New Element</h2>
+        <ul id="myList">
+            <li>Existing Item 1</li>
+            <li>Existing Item 2</li>
+        </ul>
+    </div>
+
+    <!-- Task #6: Removing and Appending Element -->
+    <div id="task6">
+        <h2>Task 6: Removing and Appending Element</h2>
+        <ul id="myUnorderedList">
+            <li>Unordered Item 1</li>
+            <li>Unordered Item 2</li>
+            <li>Unordered Item 3</li>
+        </ul>
+        <ol id="myOrderedList">
+            <!-- This will be empty initially -->
+        </ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
